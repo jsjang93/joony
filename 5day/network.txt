@@ -1,0 +1,21 @@
+APPL : Message
+TCP/IP : Segment
+IP : Packet
+MAC : Frame
+
+
+port : 0~65535 (16bit)
+--> 0~1023 : wellknown
+     1024~49151 : Registered
+     16020~65535 : Dynamic
+
+
+IPv4 : 32bit
+IPv6 : 128bit
+
+
+MAC : 망에 따라서 MAC의 구조가 다름
+--> 이더넷 : 48bit => win   : A0-00-00-00-00-00
+                            Lin    : A0:00:00:00:00:00
+		    Cisco : A000.0000.0000
+
